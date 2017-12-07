@@ -1,5 +1,25 @@
 
-$ git commit -a -m "Only save - don't tested"
-$ git push origin 
+git commit -a -m "Only save - don't tested"
+git push origin 
 
-$ git commit --all --message "Only save - don't tested"
+git commit --all --message "Only save - don't tested"
+
+----------------------------------
+
+echo "# LookingForBiggestBlankRectangle" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/emelhu/LookingForBiggestBlankRectangle.git
+git push -u origin master
+
+----------------------------------
+
+git add .
+
+git commit -m "only save commit"
+git commit -m "semifinished - millestone with test - only save commit"
+
+git push -u origin master
+
+----------------------------------
