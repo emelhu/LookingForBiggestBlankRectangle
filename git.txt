@@ -1,5 +1,5 @@
 
-git commit -a -m "Only save - don't tested"
+git commit -a -m "Only save - isn't tested"
 git push origin 
 
 git commit --all --message "Only save - isn't tested"
